@@ -10,7 +10,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Overview of your implementation
 
-This project implements a Ecommerce store with Next.js. A product catalog with category filtering and sorting options is provided on the home page. Also, users have a shopping cart functionality to add, remove or update the quantities of cart items.
+This project implements a Ecommerce store with Next.js. A paginated product catalog with category filtering and sorting options is provided on the home page. Also, users have shopping cart functionality to add, remove or update quantities of cart items.
 
 Additionally, users can click on a link on a product item to view more product details.
 
