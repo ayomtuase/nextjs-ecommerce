@@ -28,7 +28,7 @@ export default async function Home({
     <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start px-4">
       <section className="w-full my-2">
         <div className="flex flex-col">
-          <div className="container grid grid-cols-1 md:grid-cols-[1fr_3fr] mt-3 lg:mt-6 gap-4 mb-10">
+          <div className="grid grid-cols-1 md:grid-cols-[1fr_3fr] mt-3 lg:mt-6 gap-4 mb-10">
             {categories ? (
               <SidePanel categories={categories} className="sticky top-3.5" />
             ) : null}

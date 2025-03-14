@@ -55,7 +55,7 @@ export default async function Home({
   })();
 
   return (
-    <div className="flex flex-col space-y-3">
+    <div className="flex flex-col space-y-3 w-full">
       <div className="grid w-full grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-2">
         {products?.map((product) => {
           return (
