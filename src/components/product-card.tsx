@@ -71,7 +71,7 @@ const ProductCard = ({ product, className }: ProductProps) => {
             }
           )}
         >
-          {discountPercentage}%
+          {discountPercentage}% OFF
         </span>
       ) : null}
       <div className="grow relative mb-3 overflow-hidden">
@@ -109,7 +109,10 @@ const ProductCard = ({ product, className }: ProductProps) => {
         ) : (
           <MainPrice price={price} />
         )}
-        <Link href={ROUTES.PRODUCT_DETAIL(id)} className="z-10 my-2 underline text-sm">
+        <Link
+          href={ROUTES.PRODUCT_DETAIL(id)}
+          className="z-10 my-2 underline text-sm"
+        >
           View Product Details
         </Link>
         {productCartCount ? (
